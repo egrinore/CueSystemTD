@@ -61,7 +61,7 @@ Triggers 150 frames from the current playback position. On each loop, the trigge
 ```
 op.CueSystem.Add({
     "op": "/project1/audiofilein1",
-    "offset": 20,
+    "offset": 150,
     "offset_type": "frames",
     "anchor": "current",
     "on_trigger": "op.Media.AudioTriggered()",
